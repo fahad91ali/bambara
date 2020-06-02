@@ -33,5 +33,7 @@ jobs:
 # auto website update
 -name: deploying using surge
  run: surge ./ cheerful-hose.surge.sh --token ${{ secrets.BAMBARA_TOKEN}}
+ echo Add other actions to build,
+ echo test, and deploy your project.
      
     
