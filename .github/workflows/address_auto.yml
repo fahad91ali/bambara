@@ -32,6 +32,6 @@ jobs:
       run: npm install --global surge
 # auto website update
 -name: deploying using surge
- run: surge ./ cheerful-hose.surge.sh --token ${{ secrets.bambara}}
+ run: surge ./ cheerful-hose.surge.sh --token ${{ secrets.BAMBARA_TOKEN}}
      
     
