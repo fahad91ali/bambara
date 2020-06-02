@@ -32,7 +32,7 @@ jobs:
       run: npm install --global surge
 # auto website update
 -name: deploying using surge
- run: surge ./ cheerful-hose.surge.sh --token ${{ secrets.new_token}}
+ run: surge ./ cheerful-hose.surge.sh --token 'b4420f41c717eea62d4ade9a061878c9'
  echo Add other actions to build,
  echo test, and deploy your project.
      
